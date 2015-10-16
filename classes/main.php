@@ -10,7 +10,7 @@
 				'client_id' 			=> 			'bfadeeb9b6ae46bbad342ff5f539c1bf',
 				'client_secret' 		=> 			'589522327e484079be3f991fd06423de',
 				'grant_type' 			=> 			'authorization_code',
-				'redirect_uri' 		=> 			'http://ibackup.bonyroopchandani.com',
+				'redirect_uri' 		=> 			'http://instagram-backup.mybluemix.net/',
 				'code' 						=> 			$this->code
 			);
 			$ch = curl_init($url);
@@ -28,7 +28,7 @@
 				array_push($this->original, $this->thumbs[0]);
 			}
 			else {
-				header('Location: http://ibackup.bonyroopchandani.com');
+				header('Location: http://instagram-backup.mybluemix.net/');
 			}
 		}
 		public function getThumbnails() {
