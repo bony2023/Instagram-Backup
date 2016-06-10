@@ -1,0 +1,19 @@
+{
+    "name": "Instagram Backup",
+    "description": "Backup User's Instagram data.",
+    "keywords": ["heroku", "foreman", "php", "hhvm", "apache", "apache2", "nginx"],
+    "homepage": "https://github.com/bony2023/Instagram-Backup",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bony Roopchandani",
+            "email": "bonyroopchandani@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/heroku-hhvm-apache2",
+        "bin/heroku-hhvm-nginx",
+        "bin/heroku-php-apache2",
+        "bin/heroku-php-nginx"
+    ]
+}
